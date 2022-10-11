@@ -1,5 +1,14 @@
 // Assignment code here
+const charaNum = prompt("How Many Characters? (8 minimum");
+const specChara = confirm("Special Characters?")
+const numbers = confirm("Numbers?")
+const uppercase = confirm("Uppercase Letters?")
+const lowercase = confirm("Lowercase Letters?")
 
+function generatePassword(){
+return 
+
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
