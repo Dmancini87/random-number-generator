@@ -1,12 +1,17 @@
 // Assignment code here
-const charaNum = prompt("How Many Characters? (8 minimum");
-const specChara = confirm("Special Characters?")
-const numbers = confirm("Numbers?")
-const uppercase = confirm("Uppercase Letters?")
-const lowercase = confirm("Lowercase Letters?")
+let charaNum = prompt("How Many Characters? (8 minimum");
+let symbChoice = confirm("Special Characters?")
+let numChoice = confirm("Numbers?")
+let upperChoice = confirm("Uppercase Letters?")
+let lowerChoice = confirm("Lowercase Letters?")
+
+const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const lower = "abcdefghijklmnopqrstuzwxyz"
+const number = "0123456789"
+const symbol = "!@#$%^&*_+-="
 
 function generatePassword(){
-return 
+return Math.floor(Math.random() * charaNum);
 
 }
 
