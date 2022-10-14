@@ -12,6 +12,17 @@ const symbol = "!@#$%^&*_+-="
 
 function generatePassword(){
 return Math.floor(Math.random() * charaNum);
+if(symbChoice === true){
+}
+if(numChoice === true){
+
+}
+if(upperChoice === true){
+
+}
+if(LowerChoice === true){
+
+}
 
 }
 
